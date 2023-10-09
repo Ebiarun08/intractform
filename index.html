@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <div class="container-fluid" style="background: #2c3e3e;">
+            <div class="row py-4">
+                <div class="col-lg-5 col-md-12 col-12 mx-auto text-center">
+                    <form method="post" autocomplete="on" class=" ">
+                        <div class="box py-2">
+                            <label for="firstName" class="fl fontLable" style="margin-right: 20px;">First Name:</label>
+                            <div class="iconBox" >
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </div>
+                            <div class="form">
+                                <input type="text" name="firstName" placeholder="First Name" class="textBox form-control" autofocus="on" required>
+                            </div>
+                        </div>
+                        <div class="box py-2">
+                            <label for="secondName" class="fl fontLable" style="margin-right: 20px;">Last Name:</label>
+                            <div class="iconBox">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </div>
+                            <div class="form">
+                                <input type="text" name="secondName" class="textBox form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="box py-2">
+                            <label for="phoneNo" class="fl fontLable" style="margin-right: 12px;">Ph Number.:</label>
+                            <div class="iconBox">
+                                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                            </div>
+                            <div class="form">
+                                <input type="number" name="number"min="0" maxlength="10" class="textBox form-control" placeholder="10-digit phoneNumber" required >
+                            </div>
+                        </div>
+                        <div class="box py-2">
+                            <label for="email" class="fl fontLable" style="margin-right: 50px;">E-mail:</label>
+                            <div class="iconBox">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </div>
+                            <div class="form">
+                                <input type="text" name="email"placeholder="Enter Your E-MAil"  class="textbox form-control" required>
+                            </div>
+                        </div>
+                        <div class="box py-2">
+                            <label for="password" class="fl fontLable" style="margin-right: 20px;">Pass Word:</label>
+                            <div class="iconBox">
+                                <i class="fa fa-key" aria-hidden="true"></i>
+                            </div>
+                            <div class="form">
+                                <input type="text" name="password" placeholder="Password" class="textbox form-control" required>
+                            </div>
+                        </div>
+                        <div class="box radio text-light py-2">
+                            <label for="gender" class="fl fontLabel" style="margin-right: 40px;"> Gender: </label>
+                                      <input type="radio" name="Gender" value="Male" style="color: #fff;" required> Male &nbsp; &nbsp; &nbsp; &nbsp;
+                                      <input type="radio" name="Gender" value="Female" style="color: #fff;" required> Female
+                        </div>
+                        <div class="box terms py-2 text-light">
+                            <input type="checkbox" name="Terms"style="color: #fff;" required> &nbsp; I accept the terms and conditions
+                        </div>
+                        <div class="button ms-auto py-2">
+                            <button type="submit" style="color: #ff6200;"><a href="#" class="btn">Submit</a></button>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
